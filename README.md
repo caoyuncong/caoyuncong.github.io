@@ -20,3 +20,8 @@ mybatis中的#和$的区别
 	$方式一般用于传入数据库对象，例如传入表名
 
 	MyBatis排序时使用order by 动态参数时需要注意，用$而不是#
+
+easyui datagrid传输数据到后台
+
+有内置的Ajax，是直接有参数url进行数据传输，
+
