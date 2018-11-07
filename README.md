@@ -1,5 +1,9 @@
 # caoyuncong.github.io
 
+数据库存json,mybatis如何 取json数据
+
+https://www.cnblogs.com/kylindai/p/3563818.html
+
 1.  ajax参数
 
 Ajax参数就是在发送Ajax请求的时候，带往服务器的数据，Ajax请求也是请求，请求参数包括querystring,
