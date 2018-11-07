@@ -7,6 +7,8 @@ Ajax参数就是在发送Ajax请求的时候，带往服务器的数据，Ajax�
 
 通常get请求传递的是querystring ，post请求传递的是formdata
 
+requestParam  pathvarible
+
 2.  mybatis中的#和$的区别
 
 	#将传入的数据都当成一个字符串，会对自动传入的数据加一个双引号
