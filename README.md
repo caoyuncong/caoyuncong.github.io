@@ -11,7 +11,7 @@ Ajax参数就是在发送Ajax请求的时候，带往服务器的数据，Ajax�
 
 通常get请求传递的是querystring ，post请求传递的是formdata
 
-requestParam  pathvarible
+requestParam  pathvariable
 
 2.  mybatis中的#和$的区别
 
