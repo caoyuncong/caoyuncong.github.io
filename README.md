@@ -11,7 +11,20 @@ Ajax参数就是在发送Ajax请求的时候，带往服务器的数据，Ajax�
 
 通常get请求传递的是querystring ，post请求传递的是formdata
 
-requestParam  pathvariable
+@requestParam  @pathvariable 区别
+都是从request接收请求的，@requestParam是从request拿取值，@pathvariable从一个uri模板填充
+http://localhost:8080/springmvc/hello/101?param1=10&param2=20
+
+上面的一个url你可以这样写：
+
+@RequestMapping("/hello/{id}")
+    public String getDetails(@PathVariable(value="id") String id,
+    @RequestParam(value="param1", required=true) String param1,
+    @RequestParam(value="param2", required=false) String param2){
+.......
+}
+
+
 
 2.  mybatis中的#和$的区别
 
