@@ -1,4 +1,5 @@
 # caoyuncong.github.io
+itchat4j -- 用Java扩展个人微信号的能力  https://github.com/yaphone/itchat4j
 
 项目网站：进销存系统 https://www.oschina.net/project/tag/74/erp
 
@@ -77,6 +78,8 @@ http://localhost:8080/springmvc/hello/101?param1=10&param2=20
 4.  MySQL中用tinyint代表boolean，0为false，非0为true
 
 图片在数据库中以字符串存储，存的是图片的路径，
+
+事务只有在发生runtime及其子类异常才会回滚 
 
 5.  前后端分离
 前端告诉我们需要什么样的数据，然后给前端返回json数据的接口，微信，支付宝只需要调用这个接口就可以了
