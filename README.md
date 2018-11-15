@@ -1,10 +1,22 @@
 # caoyuncong.github.io
 
-xml有哪些解析技术?区别是什么?  https://blog.csdn.net/lingzhm/article/details/48350449
+项目网站：进销存系统 https://www.oschina.net/project/tag/74/erp
+
+Q1 ：xml有哪些解析技术?区别是什么?  https://blog.csdn.net/lingzhm/article/details/48350449
+
+过滤器和拦截器的区别
+记忆：原理 依赖关系  作用  应用
+拦截器 基于Java反射机制，过滤器基于函数回调
+拦截器不依赖于servlet容器，过滤器依赖
+拦截器只对action请求起作用，过滤器对几乎所有请求起作用
+拦截器可以访问action上下文、值栈里的对象，过滤器不能
+在action生命周期中，拦截器可以多次被调用，过滤器只能在容器初始化被调用一次
+拦截器可以获取IOC容器中的bean，而过滤器就不行，在拦截器里注入一个service，可以调用业务逻辑
+拦截器可以获取ioc中 service bean 实现业务逻辑
 
 
 
-shiro 框架介绍  https://www.cnblogs.com/jpfss/p/8352031.html
+Q2 : shiro 框架介绍  https://www.cnblogs.com/jpfss/p/8352031.html
 
 shiro是一个权限框架，执行身份验证，
 
