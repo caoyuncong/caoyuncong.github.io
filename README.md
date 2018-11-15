@@ -5,7 +5,7 @@ itchat4j -- 用Java扩展个人微信号的能力  https://github.com/yaphone/it
 
 Q1 ：xml有哪些解析技术?区别是什么?  https://blog.csdn.net/lingzhm/article/details/48350449
 
-过滤器和拦截器的区别
+过滤器和拦截器的区别  https://www.cnblogs.com/panxuejun/p/7715917.html
 记忆：原理 依赖关系  作用  应用
 拦截器 基于Java反射机制，过滤器基于函数回调
 拦截器不依赖于servlet容器，过滤器依赖
