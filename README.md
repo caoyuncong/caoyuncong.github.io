@@ -1,5 +1,5 @@
 # caoyuncong.github.io
-mysql高可用 主从复制，读写分离 
+mysql高可用 主从复制，读写分离 https://blog.csdn.net/u013421629/article/details/78793966
 
 itchat4j -- 用Java扩展个人微信号的能力  https://github.com/yaphone/itchat4j
 
