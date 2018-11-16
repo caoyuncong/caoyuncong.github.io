@@ -1,4 +1,6 @@
 # caoyuncong.github.io
+mysql高可用 主从复制，读写分离 
+
 itchat4j -- 用Java扩展个人微信号的能力  https://github.com/yaphone/itchat4j
 
 项目网站：进销存系统 https://www.oschina.net/project/tag/74/erp
