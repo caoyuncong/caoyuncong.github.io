@@ -1,5 +1,27 @@
 # caoyuncong.github.io
+json  轻量级数据交换格式
 
+是js的一个子集，本质是一个字符串
+
+基于文本，完全独立于语言的格式
+
+resultType  resultMap 
+
+controller   restController
+
+微信卖花调用哪些接口？
+
+
+
+
+
+
+redis  应用
+在我的印象当中，redis在项目中无处不在，比如用户登录用户名，密码这些经常不修改的数据的，需要放进redis, 后台管理中菜单一般不需要修改，商品类别信息可以用redis，商品规格参数
+
+网站的版权信息，微信的id ，还有一些经常访问但不修该的页面，使用页面静态化，放进redis,
+
+搜索引擎seo 的信息
 
 
 
