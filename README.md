@@ -1,6 +1,21 @@
 # caoyuncong.github.io
 json  轻量级数据交换格式
 
+HashMap,LinkedHashMap,TreeMap的区别  https://www.cnblogs.com/acm-bingzi/p/javaMap.html
+
+spring boot  运行方式（3)
+
+1>  application类中main方法
+
+2>  springboot项目的根路径下 mvn spring-boot:run
+
+3>  使用mvn install 生成jar后运行  
+            先到项目根目录
+              mvn install
+               cd target
+                java -jar   xxxx.jar
+
+
 是js的一个子集，本质是一个字符串
 
 基于文本，完全独立于语言的格式
