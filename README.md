@@ -93,6 +93,28 @@ undefined与null是相等；NaN与任何值都不相等，与自己也不相等�
 
 shiro是一个权限框架，执行身份验证，
 
+# 讲一下Spring的事务传播特性
+多个事务存在是怎么处理的策略
+
+1. PROPAGATION_REQUIRED: 如果存在一个事务，则支持当前事务。如果没有事务则开启
+2. PROPAGATION_SUPPORTS: 如果存在一个事务，支持当前事务。如果没有事务，则非事务的执行
+3. PROPAGATION_MANDATORY: 如果已经存在一个事务，支持当前事务。如果没有一个活动的事务，则抛出异常。
+4. PROPAGATION_REQUIRES_NEW: 总是开启一个新的事务。如果一个事务已经存在，则将这个存在的事务挂起。
+5. PROPAGATION_NOT_SUPPORTED: 总是非事务地执行，并挂起任何存在的事务。
+6. PROPAGATION_NEVER: 总是非事务地执行，如果存在一个活动事务，则抛出异常
+7. PROPAGATION_NESTED：如果一个活动的事务存在，则运行在一个嵌套的事务中. 如果没有活动事务, 则按TransactionDefinition.PROPAGATION_REQUIRED 属性执行
+
+
+Propagation
+Required 需要 如果存在一个事务，则支持当前事务。如果没有事务则开启，常用 
+Supports 支持 如果存在一个事务，支持当前事务。如果没有事务，则非事务的执行，常用 
+Mandatory 必要的 如果已经存在一个事务，支持当前事务。如果没有一个活动的事务，则抛出异常。
+required_new 总是开启一个新的事务。如果一个事务已经存在，则将这个存在的事务挂起。
+Not_support 总是非事务地执行，并挂起任何存在的事务。
+Never 绝不 总是非事务地执行，如果存在一个活动事务，则抛出异常
+Nested 嵌套的 如果有就嵌套、没有就开启事务
+
+
 # 事务的并发问题
 
 1》 脏读 事务A读到了事务B还没有提交的数据
