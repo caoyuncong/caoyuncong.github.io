@@ -1,5 +1,18 @@
 # caoyuncong.github.io
 
+# vue https://study.163.com/course/courseLearn.htm?courseId=1004181065&from=study#/learn/video?lessonId=1048293097&courseId=1004181065
+
+# Linux常用命令大全 跳转 
+cd 跳转目录路径
+pwd 显示工作路径 
+ls 查看目录中的文件
+mkdir dir1 dir2 同时创建两个目录 
+rm -rf dir1 dir2 同时删除两个目录及它们的内容 
+mv dir1 new_dir 重命名/移动 一个目录 
+cp file1 file2 复制一个文件 
+find / -name file1 从 '/' 开始进入根文件系统搜索文件和目录 
+yum 软件包升级器
+打包和压缩文件 gzip rar tar
 # js
 
 未定义的值和定义未赋值的为undefined，null是一种特殊的object,NaN是一种特殊的number。 
