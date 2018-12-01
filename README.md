@@ -1,14 +1,23 @@
 # caoyuncong.github.io
-js  js中==和===区别
-简单来说： == 代表相同， ===代表严格相同, 为啥这么说呢， 
 
-这么理解： 当进行双等号比较时候： 先检查两个操作数数据类型，如果相同， 则进行===比较， 如果不同， 则愿意为你进行一次类型转换， 转换成相同类型后再进行比较， 而===比较时， 如果类型不同，直接就是false.
+# js
 
-json  轻量级数据交换格式
+未定义的值和定义未赋值的为undefined，null是一种特殊的object,NaN是一种特殊的number。 
+undefined与null是相等；NaN与任何值都不相等，与自己也不相等。 
+== 在表达式两边的数据类型不一致时,会隐式转换为相同数据类型,然后对值进行比较。
+=== 不会进行类型转换,在比较时除了对值进行比较以外,还比较两边的数据类型。
 
-HashMap,LinkedHashMap,TreeMap的区别  https://www.cnblogs.com/acm-bingzi/p/javaMap.html
+另外，数值是null,"",undefined,Nan的时候，返回的也是false.
+先检查两个操作数数据类型，如果相同， 则进行===比较， 如果不同， 则愿意为你进行一次类型转换， 转换成相同类型后再进行比较， 而===比较时， 如果类型不同，直接就是false.
 
-spring boot  运行方式（3)
+# json  轻量级数据交换格式 
+是js的一个子集，本质是一个字符串
+
+基于文本，完全独立于语言的格式
+
+# HashMap,LinkedHashMap,TreeMap的区别  https://www.cnblogs.com/acm-bingzi/p/javaMap.html
+
+# spring boot  运行方式（3)
 
 1>  application类中main方法
 
@@ -21,24 +30,22 @@ spring boot  运行方式（3)
                 java -jar   xxxx.jar
 
 
-是js的一个子集，本质是一个字符串
 
-基于文本，完全独立于语言的格式
 
-resultType  resultMap 
+# resultType  resultMap 
 
-controller   restController
+# controller   restController
 
-微信卖花调用哪些接口？
+# 微信卖花调用哪些接口？
 
 
 
-魔方OA系统：http://oa.mojocube.com/
+# 魔方OA系统：http://oa.mojocube.com/
 
-然之协同 OA办公系统   https://www.ranzhi.org/
+# 然之协同 OA办公系统   https://www.ranzhi.org/
 
 
-redis  应用
+# redis  应用
 在我的印象当中，redis在项目中无处不在，比如用户登录用户名，密码这些经常不修改的数据的，需要放进redis, 后台管理中菜单一般不需要修改，商品类别信息可以用redis，商品规格参数
 
 网站的版权信息，微信的id ，还有一些经常访问但不修该的页面，使用页面静态化，放进redis,
@@ -49,15 +56,15 @@ redis  应用
 
 
 
-mysql高可用 主从复制，读写分离 https://blog.csdn.net/u013421629/article/details/78793966
+# mysql高可用 主从复制，读写分离 https://blog.csdn.net/u013421629/article/details/78793966
 
-itchat4j -- 用Java扩展个人微信号的能力  https://github.com/yaphone/itchat4j
+# itchat4j -- 用Java扩展个人微信号的能力  https://github.com/yaphone/itchat4j
 
-项目网站：进销存系统 https://www.oschina.net/project/tag/74/erp
+# 项目网站：进销存系统 https://www.oschina.net/project/tag/74/erp
 
-Q1 ：xml有哪些解析技术?区别是什么?  https://blog.csdn.net/lingzhm/article/details/48350449
+# Q1 ：xml有哪些解析技术?区别是什么?  https://blog.csdn.net/lingzhm/article/details/48350449
 
-过滤器和拦截器的区别  https://www.cnblogs.com/panxuejun/p/7715917.html
+# 过滤器和拦截器的区别  https://www.cnblogs.com/panxuejun/p/7715917.html
 记忆：原理 依赖关系  作用  应用
 拦截器 基于Java反射机制，过滤器基于函数回调
 拦截器不依赖于servlet容器，过滤器依赖
@@ -69,11 +76,11 @@ Q1 ：xml有哪些解析技术?区别是什么?  https://blog.csdn.net/lingzhm/a
 
 
 
-Q2 : shiro 框架介绍  https://www.cnblogs.com/jpfss/p/8352031.html
+# Q2 : shiro 框架介绍  https://www.cnblogs.com/jpfss/p/8352031.html
 
 shiro是一个权限框架，执行身份验证，
 
-事务的并发问题
+# 事务的并发问题
 
 1》 脏读 事务A读到了事务B还没有提交的数据
 
@@ -83,11 +90,11 @@ shiro是一个权限框架，执行身份验证，
 
 小结：不可重复读的和幻读很容易混淆，不可重复读侧重于修改，幻读侧重于新增或删除。解决不可重复读的问题只需锁住满足条件的行，解决幻读需要锁表
 
-数据库存json,mybatis如何 取json数据
+# 数据库存json,mybatis如何 取json数据
 
 https://www.cnblogs.com/kylindai/p/3563818.html
 
-1.  ajax参数
+# 1.  ajax参数
 
 Ajax参数就是在发送Ajax请求的时候，带往服务器的数据，Ajax请求也是请求，请求参数包括querystring,
 和formdata.
@@ -109,7 +116,7 @@ http://localhost:8080/springmvc/hello/101?param1=10&param2=20
 
 
 
-2.  mybatis中的#和$的区别
+# 2.  mybatis中的#和$的区别
 
 	#将传入的数据都当成一个字符串，会对自动传入的数据加一个双引号
 
@@ -123,18 +130,18 @@ http://localhost:8080/springmvc/hello/101?param1=10&param2=20
 
 	MyBatis排序时使用order by 动态参数时需要注意，用$而不是#
 
-3.  easyui datagrid传输数据到后台
+# 3.  easyui datagrid传输数据到后台
 
 有内置的Ajax，是直接有参数url进行数据传输，
 
-4.  MySQL中用tinyint代表boolean，0为false，非0为true
+# 4.  MySQL中用tinyint代表boolean，0为false，非0为true
 
 图片在数据库中以字符串存储，存的是图片的路径，
 
 事务只有在发生runtime及其子类异常才会回滚 
 
-5.  前后端分离
+# 5.  前后端分离
 前端告诉我们需要什么样的数据，然后给前端返回json数据的接口，微信，支付宝只需要调用这个接口就可以了
 
-6.  spring自定义注解
+# 6.  spring自定义注解
 注解只是spring做的一个标记，比如  @Autowired : 告诉spring需要在哪注入对象, spring通过反射机制知道这个类的相关信息，实现对象注入
