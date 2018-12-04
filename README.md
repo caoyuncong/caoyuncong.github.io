@@ -2,7 +2,8 @@
 # Java
 # abstract（抽象）修饰符，可以修饰类和方法
 # 保留字 null const goto   https://www.cnblogs.com/alloevil/p/5939375.html
-
+# 求java语言，用递归的方法求n的阶乘  https://blog.csdn.net/aa792978017/article/details/80679494
+# string indexOf()
 
 
 # vue https://study.163.com/course/courseLearn.htm?courseId=1004181065&from=study#/learn/video?lessonId=1048293097&courseId=1004181065
