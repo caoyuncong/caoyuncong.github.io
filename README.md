@@ -1,4 +1,9 @@
 # caoyuncong.github.io
+# Java
+# abstract（抽象）修饰符，可以修饰类和方法
+# 保留字 null const goto   https://www.cnblogs.com/alloevil/p/5939375.html
+
+
 
 # vue https://study.163.com/course/courseLearn.htm?courseId=1004181065&from=study#/learn/video?lessonId=1048293097&courseId=1004181065
 
