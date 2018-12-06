@@ -50,6 +50,14 @@ undefined与null是相等；NaN与任何值都不相等，与自己也不相等�
 
 
 
+mysql> sc delete mysql  删除mysql安装
+ 
+删除克隆项目中的 .git文件，提交github
+
+ls -al
+
+rm -rf .git 
+
 
 # resultType  resultMap 
 
