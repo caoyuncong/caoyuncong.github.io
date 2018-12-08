@@ -58,8 +58,19 @@ ls -al
 
 rm -rf .git 
 
+# mybatis 理解 https://www.cnblogs.com/lanqi/p/7851552.html
 
 # resultType  resultMap 
+resultType：
+
+查询到的列名和resultType指定的pojo的属性名一致，才能映射成功。（使用了反射机制，属性名和列名不一致就无法通过反射找到setter方法）
+
+reusltMap：
+
+可以通过resultMap 完成一些高级映射。
+
+如果查询到的列名和映射的pojo的属性名不一致时，通过resultMap设置列名和属性名之间的对应关系（映射关系）。可以完成映射。
+
 
 # controller   restController
 
