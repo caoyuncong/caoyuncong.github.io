@@ -5,6 +5,12 @@
 # 求java语言，用递归的方法求n的阶乘  https://blog.csdn.net/aa792978017/article/details/80679494
 # string indexOf()
 
+# 水平分割  垂直分割
+
+垂直分割是按列分割，如果一个表中某些列常用，而另外一些列不常用，则可以采用垂直分割。
+
+水平分割是按行分割，例如表中分别记录各个地区的数据或不同时期的数据，特别是有些数据常用，而另外一些数据不常用
+
 
 # vue https://study.163.com/course/courseLearn.htm?courseId=1004181065&from=study#/learn/video?lessonId=1048293097&courseId=1004181065
 
