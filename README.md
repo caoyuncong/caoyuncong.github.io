@@ -43,10 +43,12 @@ undefined与null是相等；NaN与任何值都不相等，与自己也不相等�
 另外，数值是null,"",undefined,Nan的时候，返回的也是false.
 先检查两个操作数数据类型，如果相同， 则进行===比较， 如果不同， 则愿意为你进行一次类型转换， 转换成相同类型后再进行比较， 而===比较时， 如果类型不同，直接就是false.
 
-# json  轻量级数据交换格式 
+# json  轻量级数据交换格式  
 是js的一个子集，本质是一个字符串
 
 基于文本，完全独立于语言的格式
+
+# json对象和json字符串区别 https://www.cnblogs.com/ilinuxer/p/6869933.html   https://www.cnblogs.com/zkwarrior/p/4822470.html
 
 # HashMap,LinkedHashMap,TreeMap的区别  https://www.cnblogs.com/acm-bingzi/p/javaMap.html
 
