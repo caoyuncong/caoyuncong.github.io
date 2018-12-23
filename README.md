@@ -5,6 +5,14 @@
 # 求java语言，用递归的方法求n的阶乘  https://blog.csdn.net/aa792978017/article/details/80679494
 # string indexOf()
 
+# 判断checkbox是否被选中,如何选中checkbox
+方法一：if($('checkbox').get(0).checked()){}  
+方法二：if($('checkbox').is(':checked'){}  
+方法三：if($('checkbox').attr('checked'){}  
+方法四：if($('checkbox').prop("checked"){}  
+
+#  选择器类型：标签， 类，  id，  伪类（用于定义元素特殊状态）， 复合（交集  并集  派生 ）， 属性，伪元素 （用于设置元素指定部分的样式）
+
 # 水平分割  垂直分割
 
 垂直分割是按列分割，如果一个表中某些列常用，而另外一些列不常用，则可以采用垂直分割。
