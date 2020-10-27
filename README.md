@@ -1,5 +1,18 @@
 # caoyuncong.github.io
 # Java
+
+Microsoft Windows [版本 10.0.19041.572]
+(c) 2020 Microsoft Corporation. 保留所有权利。
+
+C:\Users\cao>netstat -ano|findstr 8080
+  TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       13524
+
+C:\Users\cao>taskkill /pid 13524 -f
+成功: 已终止 PID 为 13524 的进程。
+
+
+
+
 # abstract（抽象）修饰符，可以修饰类和方法
 # 保留字 null const goto   https://www.cnblogs.com/alloevil/p/5939375.html
 # 求java语言，用递归的方法求n的阶乘  https://blog.csdn.net/aa792978017/article/details/80679494
