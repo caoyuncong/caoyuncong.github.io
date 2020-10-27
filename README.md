@@ -1,10 +1,10 @@
 # caoyuncong.github.io
 # Java
 
-# C:\Users\cao>netstat -ano|findstr 8080
+# netstat -ano|findstr 8080
 # TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       13524
 
-# C:\Users\cao>taskkill /pid 13524 -f
+# taskkill /pid 13524 -f
 # 成功: 已终止 PID 为 13524 的进程。
 
 
